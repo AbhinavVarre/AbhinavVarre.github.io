@@ -1,0 +1,72 @@
+body {
+  color: hotpink;
+}
+
+.logoImage {
+  width: 90%;
+  padding: 1em;
+}
+.mainTitleContainer {
+  text-align: center;
+}
+
+.sloganText {
+  font-family: cursive;
+  color: #2058df;
+  padding-top: 1em;
+}
+.underneathSlogan {
+  font-family: serif;
+  color: grey;
+  padding-bottom: 1em;
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuImageContainer {
+  max-height: 20vh;
+  max-width: 40vw; /* Add the appropriate unit (e.g., vw for viewport width) */
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.menuImage {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+
+.menuTextContainer {
+  flex-grow: 1;
+  padding-left: 1em;
+}
+
+.itemNameText {
+  font-weight: bold;
+}
+
+.costText {
+  margin: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-outline-secondary {
+  border-radius: 4em;
+}
+
+.menuItemDescriptionText {
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.list-group-item {
+  border: none;
+  padding-top: 1em;
+}
